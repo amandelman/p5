@@ -1,18 +1,19 @@
-function setup(){
+function setup() {
   createCanvas(1000, 600);
 }
 
 function draw() {
   // put drawing code here
-  background(80,230,100);
+  background(80, 230, 100);
 
-//Fun with Loops
+  //Fun with Loops
   // fill(25,155,25, 50);
   // for (var x = 20; x<width; x+=50){
   // 	for (var y = 20; y<height; y+=5){
   // 	ellipse(x, y, x/10, y/10);
   // 	}
   // }
+<<<<<<< HEAD
  //
  // for(var y = 50; y<=height; y+=50){
  // 	for(var x = 50; x<=width; x+=50){
@@ -21,27 +22,42 @@ function draw() {
  //
  // 	}
  // }
+=======
 
+  for (var y = 100; y <= height; y += 100) {
+    for (var x = 100; x <= width; x += 100) {
+      line(x, y, width / 2, height / 2);
+      ellipse(x, y, 20, 20);
+    }
+  }
+>>>>>>> master
 
-
-
-//Using Canvas's width and height variables to place circles
+  //Using Canvas's width and height variables to place circles
   // line(0, 0, width, height); // Line from (0,0) to (480, 120)
   // line(width, 0, 0, height); // Line from (480, 0) to (0, 120)
   // ellipse(width/3, height/3, 60, 60);
   // ellipse(width/3*2, height/3, 60, 60);
   // ellipse(width/3, height/3*2, 60, 60);
   // ellipse(width/3*2, height/3*2, 60, 60);
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 
-//Random Drawing
+  //Random Drawing
   // quad(800,155, 300,255, 350,355, 850,255);
   // triangle(800,155, 700,175, 665, 85);
   // triangle(350,355, 625,360, 700,285);
   // rect(100,400, 200,40);
 
+<<<<<<< HEAD
 
 //Robot Friend
+=======
+  //Robot Friend
+  // fill(0,0,0);
+  // ellipse(500,200, 100, 100);
+>>>>>>> master
 
   stroke(0);
   line(500, 200, 546, 60);
@@ -75,6 +91,7 @@ function draw() {
   fill(0);
   ellipse(489, 470, 15, 15);
 
+<<<<<<< HEAD
   fill(0,0,0);
   rect(435,320, 105, 150);
 
@@ -83,4 +100,12 @@ function draw() {
   rect(435, 340, 105, 10);
 
 
+=======
+  // fill(0,0,0);
+  // rect(435,320, 105, 150);
+
+  // fill(160);
+  // noStroke();
+  // rect(435, 340, 105, 10);
+>>>>>>> master
 }
